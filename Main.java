@@ -224,6 +224,8 @@ public class Main {
             //add podcasts
             //add audiobook
         }
+        System.out.println("List amount: "+library.size());
+        System.out.println("HashMap Amount: "+library.hashSize());
     }
     private static void loadRealSongs(Scanner input){
         sampleData = SampleDataGenerator.generate(1);
